@@ -1,7 +1,7 @@
 # am3352-u-boot-2013.10
 * Removed beagle* eeprom dependency
 * Removed PMU Code /We do not use PMU at AM3352-SOM/
-* Fixed DDR2 timings
+* Fixed DDR timings
 * Other fixes needed by AM3352-SOM
 
 Compile using official u-boot README
