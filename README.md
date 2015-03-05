@@ -5,7 +5,10 @@
 * Other fixes needed by AM3352-SOM
 
 Compile using official u-boot README
-1.Compile using selected toolchain
-make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- am335x_evm_config
-make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- -j4
+
+ 1.Compile using selected toolchain
+-----------------------------------------
+
+1. make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- am335x_evm_config
+2. make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- -j4
 
